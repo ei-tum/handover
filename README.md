@@ -11,5 +11,5 @@ Basisstationen: 4
 Modell: PPO (Proximal Policy Optimization) – Stable-Baselines3
 Trainingsdaten: SNR-Werte der 15 Benutzer
 
-Genauigkeit des trainierten Model nach eine Million Steps beträgt: 99,66 %
+Genauigkeit des trainierten Model nach einer Million Steps beträgt: 99,66 %
 
