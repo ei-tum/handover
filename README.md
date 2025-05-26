@@ -30,11 +30,12 @@ bash:
 python test_marl_ppo.py
 
 # Modell Trainieren
-um das Model zu trainieren, kannst du entweder direkt mit dem Befehl trainiern
+um das Model zu trainieren, kannst du entweder direkt mit dem Befehl 
 bash:
 python train_marl_ppo.py
+trainieren.
 
-oder du kannst in der Datei train_marl_ppo.py Änderungen vornehmen, wie du möchtest und dann 
+Oder du kannst in der Datei train_marl_ppo.py Änderungen vornehmen, wie du möchtest und dann 
 bash
 python train_marl_ppo.py 
 ausführen
