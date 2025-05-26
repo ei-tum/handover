@@ -13,3 +13,29 @@ Trainingsdaten: SNR-Werte der 15 Benutzer
 
 Genauigkeit des trainierten Model nach einer Million Steps beträgt: 99,66 %
 
+# Installation
+Repository klonen:
+bash:
+git clone https://github.com/ei-tum/handover.git
+
+bash:
+cd handover
+
+Abhängigkeiten installieren:
+pip install -r requirements.txt
+# Modell testen
+Das trainierte Modell kann direkt über die Datei test_marl_ppo.py getestet werden:
+
+bash:
+python test_marl_ppo.py
+
+# Modell Trainieren
+um das Model zu trainieren, kannst du entweder direkt mit dem Befehl trainiern
+bash:
+python train_marl_ppo.py
+
+oder du kannst in der Datei train_marl_ppo.py Änderungen vornehmen, wie du möchtest und dann 
+bash
+python train_marl_ppo.py 
+ausführen
+
